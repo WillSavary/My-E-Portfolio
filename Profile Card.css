@@ -44,26 +44,25 @@ body {
     text-overflow: auto;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    background-color: #000000;
-    border-radius: 50px;
-    background: auto;
+    background-color: #777777;
+    border-radius: 100%;
+    border-style: groove;
     padding: auto;
-    width: 400px;
     margin: auto;
-    border-bottom: #000000 solid 20px;
-    border-left: #000000 solid 50px;
-    border-right: #000000 solid 50px;
+    border-color: #000000;
 
 }
 
 .img {
+    display: flex;
+    justify-content: center;
     width: 350px;
     height: 350px;
-    border-radius: 100%;
+    border-radius: 50%;
     overflow: hidden;
     margin: auto;
     padding: auto;
-    border: 2px solid #ffffff;
+    border: 3px solid #ffffff;
 
 
 }
