@@ -258,7 +258,7 @@ body {
 
 }
 
-.footer button {
+.footer__aboutme {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -276,7 +276,7 @@ body {
 
 }
 
-.footer button:hover {
+.footer__aboutme:hover {
     background-color: rgb(0, 0, 0);
     color: #ffffff;
     cursor: pointer;
@@ -297,18 +297,18 @@ body {
 }
 
 
-.footer img {
+.footer__socials img {
     display: flex;
-    justify-content: space-between;
-    align-items: left;
+    justify-content: row;
+    align-items: center;
     width: 100px;
     height: 100px;
-    border: solid 10px #777777;
-    border-radius: 20%;
-    margin-top: 50px;
+    border: solid 5px #777777;
+    border-radius: 0;
+
 }
 
-.footer img:hover {
+.footer__socials img:hover {
     cursor: pointer;
     border-color: #555555c3;
 
