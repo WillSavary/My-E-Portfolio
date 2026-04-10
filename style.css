@@ -131,21 +131,6 @@ body {
 
 
 
-#home,
-#about,
-#contact {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    flex-direction: space-between;
-    align-items: row;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    margin: 20px;
-    padding: 5%;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(34, 33, 33);
-
-
-}
 
 .contact_page-button {
     display: flex;
