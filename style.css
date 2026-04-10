@@ -17,6 +17,18 @@
     }
 }
 
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 html {
     scroll-behavior: smooth;
     letter-spacing: 2px;
@@ -266,7 +278,7 @@ body {
 
 }
 
-.footer a {
+.footer button {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -284,7 +296,7 @@ body {
 
 }
 
-.footer a:hover {
+.footer button:hover {
     background-color: rgb(0, 0, 0);
     color: #ffffff;
     cursor: pointer;
@@ -320,18 +332,4 @@ body {
     cursor: pointer;
     border-color: #555555c3;
 
-}
-
-
-
-@keyframes slideUp {
-    from {
-        transform: translateY(100%);
-        opacity: 0;
-    }
-
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
 }
