@@ -217,6 +217,13 @@ body {
 
 }
 
+.footer__socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 .footer__socials img {
     display: flex;
