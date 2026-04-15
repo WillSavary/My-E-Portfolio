@@ -1,17 +1,17 @@
 @media (max-width: 768px) {
-    * {
+    html {
         width: 50%;
     }
 }
 
 @media (max-width: 1200px) {
-    * {
+    html {
         max-width: 1200px;
     }
 }
 
 @media (max-width: 480px) {
-    * {
+    html {
         display: block;
         width: 100%;
     }
